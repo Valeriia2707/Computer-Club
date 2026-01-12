@@ -12,5 +12,5 @@ public class Staff extends Person {
     public void fixDevice(Device device) {
         System.out.println("Pracownik " + getName() + " remontuje " + device.getId());
         device.setStatus(DeviceStatus.AVAILABLE);
-    }
+    }//..
 }
